@@ -1,0 +1,45 @@
+<resources>
+    <!-- API 15+  -->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!--We are using a custom toolbar called app_bar which requires disabling windowActionBar-->
+        <item name="windowActionBar">false</item>
+
+        <!--Colors for our theme-->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/material_blue</item>
+
+    </style>
+
+    <style name="text_header" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/material_baby_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="text_body" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">@color/white_opaque</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="text_footer" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/material_baby_blue</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="app_bar" parent="Base.Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/white_opaque</item>
+        <item name="android:textColorSecondary">@color/baby_gray</item>
+    </style>
+    <style name="app_bar_popup" parent="Base.Theme.AppCompat.Light">
+
+    </style>
+</resources>

@@ -1,0 +1,76 @@
+
+<resources>
+
+<!-- API 21+ Style Variables -->
+
+
+
+<!-- Base application theme. -->
+    <!--
+    References:
+
+    Google Color Style :   http://www.google.com/design/spec/style/color.html#color-color-palette
+    YouTube Video : https://www.youtube.com/watch?v=hrlGVU8z7zc
+    -->
+<style name="AppTheme" parent="AppTheme.Base">
+    <!-- Here we setting appcompat’s actionBarStyle -->
+    <!--<item name="actionBarStyle">@style/MyActionBarStyle</item>-->
+
+    <!-- ...and here we setting appcompat’s color theming attrs -->
+    <!--Action Bar Color-->
+    <item name="android:colorPrimary">@color/primary</item>
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+
+    <!--Status Bar Color-->
+    <item name="android:statusBarColor">@color/primary_dark</item>
+
+    <!--Accent Color-->
+    <item name="android:colorAccent">@color/accent</item>
+    <!-- General Window Style. -->
+
+    <!--<item name="android:background">@color/material_blue</item>-->
+    <item name="android:windowBackground">@color/material_blue</item>
+
+    <!--Action Bar Secondary Menu Color-->
+    <item name="android:colorBackground">@color/midnight_gray</item>
+    <item name="android:textColor">@color/white_opaque</item>
+
+    <!-- Default Text Theme Reference-->
+    <item name="android:textViewStyle">@style/text_header</item>
+
+</style>
+
+<!-- ActionBar styles -->-->
+<!--<style name="MyActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+<!--<item name="background">@color/pitch_black</item>-->
+<!--</style>-->
+
+<!-- Text styles
+
+generally roboto font is default for sans-serif for android 4.1+
+android:fontFamily="sans-serif"           // roboto regular
+android:fontFamily="sans-serif-light"     // roboto light
+android:fontFamily="sans-serif-condensed" // roboto condensed
+-->
+
+<style name="text_header" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/material_baby_blue</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:typeface">serif</item>
+</style>
+
+<style name="text_body" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textSize">38sp</item>
+    <item name="android:textColor">@color/white_opaque</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:typeface">sans</item>
+</style>
+
+<style name="text_footer" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textSize">12sp</item>
+    <item name="android:textColor">@color/material_baby_blue</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:typeface">sans</item>
+</style>
+</resources>

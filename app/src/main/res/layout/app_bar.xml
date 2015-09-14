@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--reference: https://www.youtube.com/watch?v=pMO8EVkhJO8-->
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_bar"
+    android:minHeight="@dimen/abc_action_bar_default_height_material"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:elevation="10dp"
+    app:theme="@style/app_bar"
+    app:popupTheme="@style/app_bar_popup">
+
+
+</android.support.v7.widget.Toolbar>

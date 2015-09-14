@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent">#AF3B6E</color>
+    <color name="white_opaque">#FFFFFFFF</color>
+    <color name="baby_gray">#C6CAED</color>
+    <color name="sky_gray">#5E5C6C</color>
+    <color name="material_baby_blue">#FF9EB9F7</color>
+    <color name="pitch_black">#FF000000</color>
+    <color name="material_blue">#FF4285F4</color>
+    <color name="android_green">#008000</color>
+    <color name="mustang_yellow">#ffe4ee40</color>
+    <color name="gray">#ffa9aaa5</color>
+    <color name="dark_gray">#ff71726d</color>
+    <color name="midnight_gray">#ff3c3d38</color>
+
+</resources>

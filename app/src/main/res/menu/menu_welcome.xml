@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Welcome">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_next"
+        android:orderInCategory="100"
+        android:title="Next"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_next"/>
+
+    <!--<item android:id="@+id/leftNavigation"-->
+        <!--android:title="@string/leftNavigation1"-->
+        <!--android:orderInCategory="200"-->
+        <!--android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"-->
+        <!--app:showAsAction="always" />-->
+</menu>

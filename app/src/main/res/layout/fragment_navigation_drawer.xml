@@ -1,0 +1,172 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brandycamacho.treeforce.NavigationDrawerFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:elevation="5dp"
+    android:background="@color/sky_gray">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="@dimen/activity_nav_app_bar_header_padding"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/white_opaque"
+        android:layout_marginTop="150dp"
+        android:id="@+id/ll_nav_menu"
+        tools:context=".MainActivity" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make your selection"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:textColor="@color/dark_gray"
+            android:paddingBottom="10dp"
+
+            />
+
+        <ExpandableListView
+            android:id="@+id/elv_navigation_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </ExpandableListView>
+
+
+    </LinearLayout>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/nav_header_background"
+            android:id="@+id/imageView2"
+            android:elevation="5dp"/>
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <!--Place holder that provides a stroke around small profile pic-->
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/circle"/>
+
+        <!--Small profile pic that calls RoundedCornerImageView.class-->
+        <com.brandycamacho.treeforce.widget.RoundedCornerImageView
+            android:id="@+id/iv_small_profile_pic"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/profile_pic"
+            android:scaleType="fitCenter"
+            android:layout_gravity="right"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="17dp"
+            app:cornerRadius="30dp"
+            />
+
+        <!--Small profile pic notification text background that calls RoundedCornerImageView.class-->
+        <com.brandycamacho.treeforce.widget.RoundedCornerImageView
+            android:id="@+id/iv_small_notification_count"
+            android:layout_gravity="right"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="25.6dp"
+            android:layout_height="16dp"
+            android:src="@drawable/rectangle"
+            android:scaleType="fitCenter"
+            app:cornerRadius="15dp"
+            />
+
+        <TextView
+            android:textColor="@color/sky_gray"
+            android:text="+99"
+            android:textSize="10dp"
+            android:id="@+id/tv_small_notification_count"
+            android:layout_gravity="right"
+            android:layout_marginRight="29dp"
+            android:layout_marginTop="41dp"
+            android:layout_width="25.6dp"
+            android:layout_height="16dp"/>
+
+        <!--This is a place holder that provides a stroke around large profile pic-->
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/circle"/>
+
+        <com.brandycamacho.treeforce.widget.RoundedCornerImageView
+            android:id="@+id/iv_large_profile_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/profile_pic"
+            android:scaleType="fitCenter"
+            app:cornerRadius="70dp"/>
+
+        <TextView
+            android:id="@+id/tv_user_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Brandy Camacho"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:textColor="@color/white_opaque"
+            android:shadowColor="@color/sky_gray"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            />
+        <TextView
+            android:id="@+id/tv_user_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="brandy@reddingtech.com"
+            android:layout_marginTop="118dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:textColor="@color/white_opaque"
+            android:shadowColor="@color/sky_gray"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            />
+
+        </FrameLayout>
+
+
+
+
+</FrameLayout>
